@@ -1,0 +1,272 @@
+body {
+    background-color: #3F3F3F;
+    color: white;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-right: 0;
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 0;
+}
+.education_info {
+    margin-left: 10px;
+}
+.profile_logo {
+    display: flex;
+    flex-direction: row;
+    background-color: #E0214D;
+    margin: 20px 0 15px auto;
+    width: 45%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.education_logo {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #E0214D;
+    margin: 5px auto 15px 0;
+    width: 45%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.profile_star {
+    display: flex;
+    flex-direction: row;
+}
+.logo_descrip {
+    margin: 0 15px 0 auto;
+}
+.logo_descrip p {
+    margin-left: 45%;
+}
+.logo_symbol {
+    margin: 5px;
+}
+.logo_text {
+    margin: 5px 10px 5px 5px;
+    text-transform: uppercase;
+}
+.education_place {
+    display: flex;
+    flex-direction: row;
+    
+    height: 60px;
+}
+.education_date {
+    width: 61px;
+    margin: 0;
+    padding: 10px 10px;
+    text-align: center;
+    line-height: 0.8;
+    font-weight: 600;
+    background-color: #E0214D;
+}
+.education_text {
+    border-top: solid 9px #E0214D;
+    background-color: #3F3F3F;
+    width: 100%;
+    padding-left: 10px;
+}
+.block {
+    margin: 30px 0 10px 10px;
+}
+aside {
+    text-align: center;
+    width: 100%;
+}
+.portfolio_photo {
+    text-align: center;
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    z-index: 4;
+}
+.portfolio_photo svg {
+    fill: #E0214D;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.photo_img {
+    position: absolute;
+    top: 36px;
+    left: 34px;
+}
+.portfolio_info {
+    width: 320px;
+    height: 69%;
+    background-color: #686868;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+.photo_background {
+    background-color: #686868;
+    position: absolute;
+    top: -225px;
+    width: 320px;
+    height: 350px;
+    border-top: solid 1px #686868;
+    border-radius: 115px;
+    z-index: 2;
+}
+.portfolio_personal {
+    z-index: 3;
+    text-align: center;
+}
+.personal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 40px;
+}
+.personal div i {
+    width: 25px;
+    height: 16px;
+}
+a {
+    color: white;
+    text-decoration: underline;
+}
+a:hover {
+    color: rgb(243, 228, 12);
+}
+.personal_text {
+    margin: 0 5px;
+}
+.portfolio_personality, .portfolio_hobbies {
+    text-align: left;
+    border-top: solid 1px white;
+    width: 80%;
+    margin: 10px 10px 5px 46px;
+    text-transform: uppercase;
+}
+.portfolio_personality h5 {
+    margin: 10px 5px 0 0;
+}
+.portfolio_hobbies h5 {
+    margin: 10px 5px 10px 0;
+}
+.portfolio_personality ul {
+    padding: 0;
+    margin: 0;
+}
+.portfolio_personality ul li {
+    text-transform: capitalize;
+    list-style-type: none;
+}
+.portfolio_personality ul li i {
+    margin: 5px 10px 0 0;
+    font-size: 12px;
+}
+.hobbies {
+    margin: 5px 5px 20px 0;
+}
+.hobbies_list {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 10px;
+    font-size: 14px;
+}
+.hobbies_list div i {
+    font-size: 30px;
+}
+.experience {
+    margin: 142px 0 20px 0;
+}
+section {
+    padding-right: 0;
+    position: relative;
+}
+.col-lg-8, .col-md-6, .col-sm-12 {
+    padding-right: 0;
+}
+.red_line {
+    display: flex;
+    flex-direction: row;
+    background-color: #E0214D;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
+.first_line {
+    width: 120px;
+    position: absolute;
+    height: 40px;
+    left: -100px;
+    background-color: #E0214D;
+}
+.company {
+    display: flex;
+    flex-direction: row;
+}
+.company_date {
+    text-align: center;
+    padding: 5px 20px 5px 0;
+}
+.company_info {
+    padding: 5px 0;
+}
+.languages {
+    display: flex;
+    flex-direction: column;
+}
+.languages_name {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px 5px 0;
+}
+.languages_mark {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    color: transparent;
+}
+.active {
+    width: 16px;
+    height: 16px;
+    background-color: #DB1A46;
+    float: left;
+    margin: 0px 5px 8px 5px;
+}
+.inert {
+    width: 16px;
+    height: 16px;
+    background-color: #713142;
+    float: left;
+    margin: 0px 5px 8px 5px;
+}
+.skills_list {
+    margin: 0;
+    padding: 0;
+}
+.skills_list li {
+    text-transform: capitalize;
+    list-style-type: none;
+    margin: 5px 10px 10px 0;
+}
+.skills_list li i {
+    margin: 5px 10px 0 0;
+    font-size: 12px;
+}
+.certificate_name {
+    margin: 5px 10px 10px 0;;
+}
+footer {
+    background-color: #E0214D;
+    height: 60px;
+    position: relative;
+    padding: 17px;
+    text-align: center;
+    font-size: 14px;
+}
