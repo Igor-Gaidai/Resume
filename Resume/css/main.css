@@ -142,7 +142,7 @@ a:hover {
     color: rgb(243, 228, 12);
 }
 .personal_text {
-    margin: 0 5px;
+    margin: 10px 5px 0 5px;
 }
 .portfolio_personality, .portfolio_hobbies {
     text-align: left;
@@ -162,7 +162,7 @@ a:hover {
     margin: 0;
 }
 .portfolio_personality ul li {
-    text-transform: capitalize;
+    text-transform: none;
     list-style-type: none;
 }
 .portfolio_personality ul li i {
@@ -181,7 +181,7 @@ a:hover {
 .hobbies_list div i {
     font-size: 30px;
 }
-.experience {
+.my-portfolio {
     margin: 142px 0 20px 0;
 }
 section {
